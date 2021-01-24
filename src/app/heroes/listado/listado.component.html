@@ -5,6 +5,8 @@
     Heroe borrado: <small>{{ heroeBorrado }}</small>
   </h3>
 </div>
+<ng-template *ngIf="heroeBorrado">{{ultimoHeroeBorrado}}</ng-template>
+
 
 <ng-template #noBorrado>
   <h3>No ha borrado nada aun.</h3>
